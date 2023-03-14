@@ -2,10 +2,74 @@
 .main-container[b-owr38nn4zl] {
 
 }
+/* /Shared/Components/DescriptionDisplay.razor.rz.scp.css */
+.description-container[b-8pei57ak8i] {
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.description-title-container[b-8pei57ak8i] {
+    padding-bottom: 0;
+}
+
+.description-content-container[b-8pei57ak8i] {
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+.description-keywords-container[b-8pei57ak8i] {
+    font-size: 1em;
+    padding-top: 20px;
+}
+/* /Shared/Components/ImagesDisplay.razor.rz.scp.css */
+.image-container[b-ktzjl2951b] {
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+.image[b-ktzjl2951b] {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.previous-button[b-ktzjl2951b],
+.next-button[b-ktzjl2951b] {
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+    .previous-button span[b-ktzjl2951b],
+    .next-button span[b-ktzjl2951b] {
+        font-weight: bold;
+        opacity: 0.5;
+        font-size: 100px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+        .previous-button span:hover[b-ktzjl2951b],
+        .next-button span:hover[b-ktzjl2951b] {
+            opacity: 1;
+        }
+
+.previous-button[b-ktzjl2951b] {
+    left: 0;
+}
+
+.next-button[b-ktzjl2951b] {
+    right: 0;
+}
 /* /Shared/Components/ProjectSection.razor.rz.scp.css */
 .section-container[b-g9x6atsca1] {
-    min-height: 600px;
-    direction: revert;
     border-radius: 30px;
 }
 
@@ -16,18 +80,11 @@
     flex-wrap: wrap;
     padding: 2em;
 }
-
-.content[b-g9x6atsca1] {
-    border-radius: 30px;
-}
-
-.description-container[b-g9x6atsca1] {
-    font-size: 1.3em;
-    display: flex;
-    justify-content: start;
-    align-content: center;
-    flex-wrap: wrap;
-    padding: 2em;
+/* /Shared/Components/VideoDisplay.razor.rz.scp.css */
+.video-content[b-xsrojey8of] {
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-p5w95znwby] {
