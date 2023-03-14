@@ -6,6 +6,7 @@
 .section-container[b-g9x6atsca1] {
     min-height: 600px;
     direction: revert;
+    border-radius: 30px;
 }
 
 .content-container[b-g9x6atsca1] {
@@ -14,6 +15,10 @@
     align-content: center;
     flex-wrap: wrap;
     padding: 2em;
+}
+
+.content[b-g9x6atsca1] {
+    border-radius: 30px;
 }
 
 .description-container[b-g9x6atsca1] {
