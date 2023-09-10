@@ -1,6 +1,5 @@
-@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 html, body {
-    background: rgb(92, 92, 92)
+    background: #32333d;
 }
 #blazor-error-ui {
     background: lightyellow;
