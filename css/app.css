@@ -62,3 +62,8 @@ html, body {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+.active-link {
+    font-weight: bold;
+    color: var(--mud-palette-primary);
+}
